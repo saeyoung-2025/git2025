@@ -29,4 +29,87 @@ git push: "정리함에 담긴 물건들을 창고(깃허브)로 옮겨둘게."
 
 --------------------------------------------------------------------------------위 세가지는 버추얼에서 새파일 깃으로 보내기전 꼭 체크해야함 각 파일마다
 
-cd /c/Users/lg/Desktop/git2025  하고
+cd /c/Users/lg/Desktop/git2025  하고  cd~ /Desktop/git2025
+
+https://github.com/saeyoung-2025/git2025
+
+---------
+cd /c/Users/lg/Desktop/git2025    이쪽 주소로 가자~
+
+
+
+Bash
+
+git add .
+
+git commit -m "내 첫 번째 커밋"
+
+
+
+
+
+
+**
+lg@DESKTOP-7EDGNT2 MINGW64 ~ (main)
+$ cd /c/Users/lg/Desktop/git2025
+
+lg@DESKTOP-7EDGNT2 MINGW64 ~/Desktop/git2025 (main)
+$ git add .
+
+lg@DESKTOP-7EDGNT2 MINGW64 ~/Desktop/git2025 (main)
+$ git commit -m "ss.html"
+[main c621d50] ss.html
+ 8 files changed, 303 insertions(+)
+ create mode 100644 "git\353\252\205\353\240\271\354\226\264 \353\252\250\354\235\214 \353\262\204\354\243\274\354\226\274\354\227\220\354\204\234 \355\204\260\353\257\270\353\204\220\354\227\220\354\204\234 \355\225\264\354\243\274\354\226\264\354\225\274 \355\225\240 \352\262\203\353\223\244.txt" 
+ create mode 100644 ss,html
+ create mode 100644 ss.html
+ create mode 100644 sss.html
+ create mode 100644 ssss.html
+ create mode 100644 todo1/!DOCTYPE html.txt
+
+lg@DESKTOP-7EDGNT2 MINGW64 ~/Desktop/git2025 (main)
+$ git push origin main   까지는 잘됨 여기서 오류
+      이유는 이미 뭔가 올라와 있어 조심스러워 함으로 통합명령을 내려야 함
+
+Bash
+
+git pull origin main
+--------------------------통합할때 i   는 편집모드 글쓸수 있고 첨부가능 반대로 일반모드 코딩은 : 를 키보드에서 해줘야 함 insert는 참조내용 조금 넣는거고 아래 
+
+현재 Vim 편집기 화면에서 **i**를 누르세요.
+
+화면 맨 아래에 -- INSERT --가 뜨면, 커서가 깜빡이는 곳에 커밋 메시지를 작성하세요.
+
+작성을 마친 후, Esc 키를 눌러 다시 일반 모드로 돌아갑니다.
+
+마지막으로 **:wq**를 입력하고 **Enter**를 누르면, 메시지가 저장되고 편집기가 종료됩니다.
+
+이렇게 하면 git pull 과정에서 발생했던 병합이 성공적으로 완료됩니다.
+
+
+-------------------------------------하지만 미완성
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
